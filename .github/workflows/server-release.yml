@@ -87,4 +87,4 @@ jobs:
           file: ./server/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/svix-server:latest
-          platforms: linux/amd64
+          platforms: linux/amd64,linux/arm64
